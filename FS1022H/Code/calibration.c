@@ -84,24 +84,24 @@ uint16_t calibration_calc(uint16_t adc_value)
     {
         y_adc = temp_adc - lel_zero_value;
     }
-
-    // (▲y - y1) / (▲x - x1) = (y2 - y1) / (x2 - x1) = K
-    // (▲x - x1)  = (▲y - y1) / K
-    //  ▲x  = (▲y - y1) / K + x1
-    for (i = 0; i < CAL_FUNC_SECTION_NUM; i++)
-    {
-        if ((y_adc >= default_adc[i]) && (y_adc < default_adc[i + 1]))
-        {
-            x_cons = (((y_adc - default_adc[i]) * CALC_MULTIPLE * CALC_MULTIPLE) / function_k_value[i]) + (default_conc[i] * CALC_MULTIPLE);
-        }
-    }
-
-    x_cons = (x_cons + 5) / CALC_MULTIPLE;
-
     if (y_adc >= (default_adc[CAL_FUNC_SECTION_NUM]))
     {
         x_cons = 100;
     }
+    else
+    {
+        // (▲y - y1) / (▲x - x1) = (y2 - y1) / (x2 - x1) = K
+        // (▲x - x1)  = (▲y - y1) / K
+        //  ▲x  = (▲y - y1) / K + x1
+        for (i = 0; i < CAL_FUNC_SECTION_NUM; i++)
+        {
+            if ((y_adc >= default_adc[i]) && (y_adc < default_adc[i + 1]))
+            {
+                x_cons = (((y_adc - default_adc[i]) * CALC_MULTIPLE * CALC_MULTIPLE) / function_k_value[i]) + (default_conc[i] * CALC_MULTIPLE);
+            }
+        }
+    }
+    x_cons = (x_cons + 5) / CALC_MULTIPLE;  //此处为什么加5
 
     return x_cons;
 }
@@ -191,7 +191,7 @@ uint8_t calibration_alarm_set(uint8_t index)
         }
         else
         {
-            alarm_value = lel_zero_value;
+            alarm_value = lel_zero_value;   //这个地方赋值，好像有点问题，小于零值，是不是要给零
         }
 
         if (flag_alarm_success[index] == 0)

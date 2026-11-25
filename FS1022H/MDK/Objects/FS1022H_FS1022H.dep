@@ -1,0 +1,1095 @@
+Dependencies for Project 'FS1022H', Target 'FS1022H': (DO NOT MODIFY !)
+F (..\Code\buzzer.c)(0x600135A6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\buzzer.o --omf_browse .\objects\buzzer.crf --depend .\objects\buzzer.d)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\flash_fmc.c)(0x60501310)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\flash_fmc.o --omf_browse .\objects\flash_fmc.crf --depend .\objects\flash_fmc.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\flash_fmc.h)(0x60013634)
+F (..\Code\history.c)(0x605D87DE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\history.o --omf_browse .\objects\history.crf --depend .\objects\history.d)
+I (..\Code\history.h)(0x5FFE9A60)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\flash_fmc.h)(0x60013634)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\protocol.h)(0x605D7EAE)
+I (..\Code\rtc.h)(0x5FFE5EAC)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\usart.h)(0x5FFE5EAC)
+F (..\Code\key.c)(0x60ACD2E0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\key.h)(0x5FFE5EAC)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\two_wire.h)(0x6369C00F)
+F (..\Code\led.c)(0x609BAED8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\Code\led.h)(0x5FFE88B2)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\sensor.h)(0x5FFE5EAC)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (..\Code\relay.h)(0x5FFE5EAC)
+F (..\Code\main.c)(0x609A5D78)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\key.h)(0x5FFE5EAC)
+I (..\Code\rtc.h)(0x5FFE5EAC)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\usart.h)(0x5FFE5EAC)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (..\Code\flash_fmc.h)(0x60013634)
+I (..\Code\sample.h)(0x5FFE89B2)
+I (..\Code\history.h)(0x5FFE9A60)
+I (..\Code\protocol.h)(0x605D7EAE)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\sensor.h)(0x5FFE5EAC)
+I (..\Code\relay.h)(0x5FFE5EAC)
+I (..\Code\calibration.h)(0x6052E7BC)
+I (..\Code\two_wire.h)(0x6369C00F)
+F (..\Code\protocol.c)(0x636DE139)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\protocol.o --omf_browse .\objects\protocol.crf --depend .\objects\protocol.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (..\Code\calibration.h)(0x6052E7BC)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\flash_fmc.h)(0x60013634)
+I (..\Code\history.h)(0x5FFE9A60)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\protocol.h)(0x605D7EAE)
+I (..\Code\rtc.h)(0x5FFE5EAC)
+I (..\Code\sample.h)(0x5FFE89B2)
+I (..\Code\sensor.h)(0x5FFE5EAC)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\usart.h)(0x5FFE5EAC)
+I (..\Code\two_wire.h)(0x6369C00F)
+F (..\Code\sample.c)(0x60ACBAEC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\sample.o --omf_browse .\objects\sample.crf --depend .\objects\sample.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\sample.h)(0x5FFE89B2)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\usart.h)(0x5FFE5EAC)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\history.h)(0x5FFE9A60)
+I (..\Code\flash_fmc.h)(0x60013634)
+I (..\Code\sensor.h)(0x5FFE5EAC)
+I (..\Code\calibration.h)(0x6052E7BC)
+I (..\Code\two_wire.h)(0x6369C00F)
+F (..\Code\systick.c)(0x5FFE5EAC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\systick.h)(0x6087CD66)
+F (..\Code\two_wire.c)(0x636DE1E0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\two_wire.o --omf_browse .\objects\two_wire.crf --depend .\objects\two_wire.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\two_wire.h)(0x6369C00F)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\sample.h)(0x5FFE89B2)
+I (..\Code\sensor.h)(0x5FFE5EAC)
+I (..\Code\rtc.h)(0x5FFE5EAC)
+I (..\Code\calibration.h)(0x6052E7BC)
+F (..\Code\usart.c)(0x5FFE5EAC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\usart.h)(0x5FFE5EAC)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\protocol.h)(0x605D7EAE)
+F (..\Code\gd32f3x0_it.c)(0x5FFE5660)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_it.o --omf_browse .\objects\gd32f3x0_it.crf --depend .\objects\gd32f3x0_it.d)
+I (..\Code\gd32f3x0_it.h)(0x5FFE5674)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\protocol.h)(0x605D7EAE)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\usart.h)(0x5FFE5EAC)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\sample.h)(0x5FFE89B2)
+I (..\Code\two_wire.h)(0x6369C00F)
+F (..\Code\system.c)(0x60AB0DC1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\usart.h)(0x5FFE5EAC)
+I (..\Code\key.h)(0x5FFE5EAC)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (..\Code\sample.h)(0x5FFE89B2)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\flash_fmc.h)(0x60013634)
+I (..\Code\history.h)(0x5FFE9A60)
+I (..\Code\protocol.h)(0x605D7EAE)
+I (..\Code\rtc.h)(0x5FFE5EAC)
+I (..\Code\sensor.h)(0x5FFE5EAC)
+I (..\Code\relay.h)(0x5FFE5EAC)
+I (..\Code\calibration.h)(0x6052E7BC)
+I (..\Code\two_wire.h)(0x6369C00F)
+F (..\Code\rtc.c)(0x5FFE9A16)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\rtc.h)(0x5FFE5EAC)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\usart.h)(0x5FFE5EAC)
+F (..\Code\sensor.c)(0x5FFE9A43)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\sensor.o --omf_browse .\objects\sensor.crf --depend .\objects\sensor.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\buzzer.h)(0x5FFE9A6C)
+I (..\Code\flash_fmc.h)(0x60013634)
+I (..\Code\history.h)(0x5FFE9A60)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\relay.h)(0x5FFE5EAC)
+I (..\Code\rtc.h)(0x5FFE5EAC)
+I (..\Code\sample.h)(0x5FFE89B2)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\sensor.h)(0x5FFE5EAC)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\usart.h)(0x5FFE5EAC)
+F (..\Code\calibration.c)(0x6052E7B4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\calibration.o --omf_browse .\objects\calibration.crf --depend .\objects\calibration.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Code\system.h)(0x609BAF02)
+I (..\Code\fs_type.h)(0x5FFE9984)
+I (..\Code\calibration.h)(0x6052E7BC)
+I (..\Code\flash_fmc.h)(0x60013634)
+I (..\Code\systick.h)(0x6087CD66)
+I (..\Code\sample.h)(0x5FFE89B2)
+I (..\Code\led.h)(0x5FFE88B2)
+I (..\Code\two_wire.h)(0x6369C00F)
+F (..\Code\relay.c)(0x60013D66)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\relay.o --omf_browse .\objects\relay.crf --depend .\objects\relay.d)
+I (..\Code\relay.h)(0x5FFE5EAC)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\CMSIS\GD\GD32F3x0\Source\system_gd32f3x0.c)(0x5FDAF5D0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\system_gd32f3x0.o --omf_browse .\objects\system_gd32f3x0.crf --depend .\objects\system_gd32f3x0.d)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\CMSIS\GD\GD32F3x0\Source\ARM\startup_gd32f3x0.s)(0x5FB614BE)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "GD32F330 SETA 1"--list .\listings\startup_gd32f3x0.lst --xref -o .\objects\startup_gd32f3x0.o --depend .\objects\startup_gd32f3x0.d)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_adc.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_adc.o --omf_browse .\objects\gd32f3x0_adc.crf --depend .\objects\gd32f3x0_adc.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_dma.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_dma.o --omf_browse .\objects\gd32f3x0_dma.crf --depend .\objects\gd32f3x0_dma.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_exti.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_exti.o --omf_browse .\objects\gd32f3x0_exti.crf --depend .\objects\gd32f3x0_exti.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_fmc.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_fmc.o --omf_browse .\objects\gd32f3x0_fmc.crf --depend .\objects\gd32f3x0_fmc.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_gpio.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_gpio.o --omf_browse .\objects\gd32f3x0_gpio.crf --depend .\objects\gd32f3x0_gpio.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_misc.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_misc.o --omf_browse .\objects\gd32f3x0_misc.crf --depend .\objects\gd32f3x0_misc.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_pmu.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_pmu.o --omf_browse .\objects\gd32f3x0_pmu.crf --depend .\objects\gd32f3x0_pmu.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_rcu.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_rcu.o --omf_browse .\objects\gd32f3x0_rcu.crf --depend .\objects\gd32f3x0_rcu.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_rtc.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_rtc.o --omf_browse .\objects\gd32f3x0_rtc.crf --depend .\objects\gd32f3x0_rtc.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_syscfg.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_syscfg.o --omf_browse .\objects\gd32f3x0_syscfg.crf --depend .\objects\gd32f3x0_syscfg.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_timer.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_timer.o --omf_browse .\objects\gd32f3x0_timer.crf --depend .\objects\gd32f3x0_timer.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_usart.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_usart.o --omf_browse .\objects\gd32f3x0_usart.crf --depend .\objects\gd32f3x0_usart.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\Code\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_spi.c)(0x5FB614BE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Code\Firmware -I..\Code\Firmware\CMSIS -I.\RTE\_GD32E230 -I..\Code -I..\Code\Firmware\CMSIS\GD\GD32F3x0\Include -I..\Code\Firmware\GD32F3x0_standard_peripheral\Include-I E:\wugy\Project\FS1022H\FS1022H-V4.0.0-SN221108420-source\FS1022H\MDK\RTE-I D:\MDK525\ARM\PACK\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-I D:\MDK525\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DGD32F330 -DGD32F330-o .\objects\gd32f3x0_spi.o --omf_browse .\objects\gd32f3x0_spi.crf --depend .\objects\gd32f3x0_spi.d)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Code\Firmware\CMSIS\core_cmInstr.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cmFunc.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\core_cm4_simd.h)(0x5FB614BE)
+I (..\Code\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x5FB614BE)
+I (..\Code\gd32f3x0_libopt.h)(0x5EE85AE2)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x5FB614BE)
+I (..\Code\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x5FB614BE)
+I (D:\MDK525\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\MDK525\ARM\ARMCC\include\string.h)(0x599ECD2C)

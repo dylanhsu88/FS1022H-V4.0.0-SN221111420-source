@@ -191,7 +191,7 @@ uint8_t calibration_alarm_set(uint8_t index)
         }
         else
         {
-            alarm_value = lel_zero_value;   //这个地方赋值，好像有点问题，小于零值，是不是要给零
+            alarm_value = lel_zero_value;   //这个地方赋值有点问题，小于初值，是不是要给零，因为不够减的情况下，需要给零
         }
 
         if (flag_alarm_success[index] == 0)

@@ -101,7 +101,7 @@ uint16_t calibration_calc(uint16_t adc_value)
             }
         }
     }
-    x_cons = (x_cons + 5) / CALC_MULTIPLE;  //此处为什么加5
+    x_cons = (x_cons + 5) / CALC_MULTIPLE;  //此处为什么加5，应该是送检时补偿了几个浓度点
 
     return x_cons;
 }
